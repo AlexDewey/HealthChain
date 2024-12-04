@@ -181,7 +181,7 @@ app.post('/login', async (req: Request, res: Response) => {
     // }
 
     res.status(201).send({
-      message: "Admin"
+      message: "Patient"
     })
 
 
